@@ -46,8 +46,7 @@ function iniciarJogo(){
     if(snake[0].y > 15 * box && direction == "down") snake[0].y = 0;
     if(snake[0].y < 0 && direction == "up") snake[0].y = 16 * box;
 
-
-
+// ---------------- CHAMADA DAS FUNÇÕES ----------------
     criarBG();
     criarCobrinha();
     drawFood();
